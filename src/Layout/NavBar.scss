@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    .logoReact,
+    .logoBootstrap {
+        max-width: 150px;
+        max-height: 100px;
+    }
+}

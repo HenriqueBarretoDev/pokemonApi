@@ -1,0 +1,60 @@
+.card {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+    margin: 50px;
+    .title {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            align-content: center;
+            .status {
+                .badges {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 10px;
+                    text-transform: uppercase;
+                }
+                .badges:hover {
+                    margin-left: 30px;
+                }
+            }
+
+            .skills,
+            .type {
+                text-align: center;
+                text-transform: uppercase;
+                .badge {
+                    margin: 3px 5px;
+                }
+            }
+        }
+        .image {
+            max-width: 300px;
+        }
+    }
+    & h3 {
+        font-size: 20px;
+        text-align: center;
+        margin: 5px 0;
+    }
+    .card-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .btn {
+            margin: 0 15px;
+            
+        }
+    }
+}
